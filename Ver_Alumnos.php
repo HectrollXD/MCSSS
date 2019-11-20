@@ -15,8 +15,9 @@
                 <hr><br>
                 <div class="row">
                     <div class="col-lg-2"></div>
-                    <input type="text" id="Buscar" class="col-lg-6 form-control searchbar" placeholder="Buscar">
-                    <input type="button" value="Buscar" class="col-lg-2 btn-primary form-control searchbar" id="btn-buscar">
+                    <input type="text" id="Buscar" class="col-lg-5 form-control" placeholder="Buscar">
+                    <div class="col-lg-1"></div>
+                    <input type="button" value="Buscar" class="col-lg-2 btn btn-secondary" id="btn-buscar">
                     <div class="col-lg-2"></div>
                 </div>
                 <br>
@@ -27,7 +28,7 @@
                 </div>
                 <div class="row" id="regresar" style="display:none;">
                     <div class="col-lg-10"></div>
-                    <div class="col-lg-2"><input type="button" value="Regresar" class="btn btn-primary form-control" id="btnregresar"></div>
+                    <div class="col-lg-2"><input type="button" value="Regresar" class="btn btn-secondary form-control" id="btnregresar"></div>
                 </div><br>
                 <div id="vista" style="display:none;">
                 </div>

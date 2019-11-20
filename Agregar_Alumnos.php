@@ -77,7 +77,7 @@
                 <div class="row">
                     <div class="col-lg-8"></div>
                     <div class="col-lg-2"><input type="button" id="borrar" value="Borrar campos" class="btn btn-danger form-control"></div>
-                    <div class="col-lg-2"><input type="button" id="guardar" value="Guardar" class="btn btn-primary form-control"></div>
+                    <div class="col-lg-2"><input type="button" id="guardar" value="Guardar" class="btn btn-secondary form-control"></div>
                 </div><br><br><br>
             </div>
         <?php include ("shared/navbarend.html"); ?>

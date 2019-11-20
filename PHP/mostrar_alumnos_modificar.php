@@ -22,7 +22,7 @@
                     <tr>
                         <td>$rows[0]</td>
                         <td>$Nombre</td>
-                        <td><input type='button' value='Modificar' id='$rows[0]' class='btn btn-warning form-control'></td>
+                        <td><input type='button' value='Modificar' id='$rows[0]' class='btn btn-secondary'></td>
                     </tr>
             ";
         }
@@ -44,7 +44,7 @@
                     <tr>
                         <td>$rows[0]</td>
                         <td>$Nombre</td>
-                        <td><input type='button' value='Modificar' id='$rows[0]' class='btn btn-warning form-control'></td>
+                        <td><input type='button' value='Modificar' id='$rows[0]' class='btn btn-secondary '></td>
                     </tr>
             ";
         }

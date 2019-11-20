@@ -22,7 +22,7 @@
                     <tr>
                         <td>$rows[0]</td>
                         <td>$Nombre</td>
-                        <td><input type='button' value='Datos' id='$rows[0]' class='btn btn-success form-control'></td>
+                        <td><input type='button' value='Datos' id='$rows[0]' class='btn btn-secondary form-control'></td>
                     </tr>
             ";
         }
@@ -36,7 +36,7 @@
     }
     else{
         $B = $_POST['Busqueda'];
-        $Consulta = "SELECT * FROM ALUMNO WHERE CODIGO LIKE '%$B%' OR NOMBRE LIKE '%$B%' ORDER BY CODIGO ASC";
+        $Consulta = "SELECT * FROM ALUMNO WHERE CODIGO LIKE '%$B%' OR NOMBRE LIKE '%$B%' ORDER BY NOMBRE ASC";
         $Query = $conexion -> query($Consulta);
         while($rows = $Query -> fetch_array()){
             $Nombre = ucwords(strtolower($rows[1]));
@@ -44,7 +44,7 @@
                     <tr>
                         <td>$rows[0]</td>
                         <td>$Nombre</td>
-                        <td><input type='button' value='Datos' id='$rows[0]' class='btn btn-success form-control'></td>
+                        <td><input type='button' value='Datos' id='$rows[0]' class='btn btn-secondary form-control'></td>
                     </tr>
             ";
         }

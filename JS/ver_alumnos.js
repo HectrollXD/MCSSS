@@ -2,7 +2,7 @@ $(document).ready(main);
 
 function main(){
     $('#btn-buscar').click(mostrar_alumnos);
-    $('#Tabla').on('click', '.btn-success', mostrar);
+    $('#Tabla').on('click', '.btn-secondary', mostrar);
     $('#btnregresar').click(ocultarymostrar);
     
 }
